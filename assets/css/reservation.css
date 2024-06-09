@@ -31,12 +31,27 @@ body{
 }
 
 .phone-number{
-    text-transform: uppercase;
-    font-size: medium;
     font-weight: 700;
     color: var(--green-color);
 }
 
 .email-address{
     color: var(--green-color);
+}
+
+.social-icons{
+    list-style: none;
+    padding: 10px;
+}
+
+.social-icons li{
+    margin-right: 15px;
+}
+
+.social-icons a {
+    font-size: 25px;
+}
+
+.icon-color{
+    color: var(--phthalo-color);
 }

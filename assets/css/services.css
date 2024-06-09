@@ -9,6 +9,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .services-cards{
@@ -108,4 +110,21 @@
     font-size: calc(1vw + 5px);
     font-weight: 700;
     line-height: 25px;
+}
+
+.social-icons{
+    list-style: none;
+    padding: 10px;
+}
+
+.social-icons li{
+    margin-right: 15px;
+}
+
+.social-icons a {
+    font-size: 25px;
+}
+
+.icon-color{
+    color: var(--phthalo-color);
 }

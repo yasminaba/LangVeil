@@ -29,3 +29,29 @@
     width: 50%;
     font-size: large;
 }
+
+.number-custom{
+    font-weight: 700;
+    color: var(--green-color);
+}
+
+.email-custom{
+    color: var(--green-color);
+}
+
+.social-icons{
+    list-style: none;
+    padding: 10px;
+}
+
+.social-icons li{
+    margin-right: 15px;
+}
+
+.social-icons a {
+    font-size: 25px;
+}
+
+.icon-color{
+    color: var(--phthalo-color);
+}
