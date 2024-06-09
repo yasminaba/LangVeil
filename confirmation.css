@@ -1,0 +1,31 @@
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+    --green-color: #4b7760;
+    --phthalo-color: #123524;
+    --gold-color: #b59c73;
+    --darkergold-color: #b69d74b9;
+}
+
+.retake-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-box{
+    width: 50%;
+}
+
+.infos-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-text{
+    width: 50%;
+    font-size: large;
+}
