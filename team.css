@@ -1,0 +1,90 @@
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+    --green-color: #4b7760;
+    --phthalo-color: #123524;
+    --gold-color: #B69D74;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.wrapper{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1{
+    color: var(--black-color);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.member{
+    margin: 20px;
+    margin-top: 150px;
+    flex-basis: calc(25% - 100px);
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 45px;
+    line-height: 22px;
+    height: 400px;
+    border: 2px solid var(--gold-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.member-text{
+    margin-top: 85px;
+}
+
+.member-text h3{
+    color: var(--black-color);
+    font-size: 30px;
+}
+
+.member-text p{
+    color: var(--black-color);
+}
+
+.level{
+    text-transform: uppercase;
+}
+
+.team .member .member-img{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team .member .member-img img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid var(--green-color);
+    object-fit: cover;
+}
+

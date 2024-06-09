@@ -1,0 +1,72 @@
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+    --green-color: #4b7760;
+    --phthalo-color: #123524;
+    --gold-color: #B69D74;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.mission-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.mission-text{
+    padding: 20px;
+}
+
+.mission-description{
+    margin-bottom: 1rem;
+    width: 600px;
+    word-wrap: break-word;
+}
+
+.mission-image{
+    position: relative;
+    justify-self: center;
+    overflow: hidden;
+}
+
+.mission-img{
+    width: 700px;
+    transition: transform .4s;
+}
+
+.mission-img:hover{
+    transform: scale(1.1);
+}
+
+.btn-primary{
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    transition: transform .4s;
+    margin-bottom: 1rem;
+}
+
+.btn-primary:active{
+    background-color: var(--phthalo-color) !important;
+    border-color: var(--phthalo-color) !important;
+    transform: scale(1.05) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--phthalo-color);
+    border-color: var(--phthalo-color);
+    transform: scale(1.05);
+}
+
