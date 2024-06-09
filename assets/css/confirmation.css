@@ -25,6 +25,19 @@
     flex-direction: column;
 }
 
+.last-words{
+    margin-top: 20px;
+}
+
+.last-words p{
+    margin: 0;
+    padding: 0;
+}
+
+.retake-btn{
+    margin-top: 25px;
+}
+
 .form-text{
     width: 50%;
     font-size: large;
