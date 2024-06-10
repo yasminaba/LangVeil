@@ -52,11 +52,15 @@
     overflow: hidden; 
     border: 2px solid #123524;
     position: relative;
-    transition: 1s;
+    transition: transform 0.3s ease;
 }
 
 .card:hover{
     transform: translateY(-5px);
+}
+
+.card:active{
+    transform: translateY(-10px);
 }
 
 .card-img{
